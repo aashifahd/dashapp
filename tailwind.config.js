@@ -8,7 +8,9 @@ export default {
   theme: {
     extend: {
 
-
+      fontFamily: {
+        sans: ["manrope", "sans-serif"],
+      },
 
       container: {
         center: true,

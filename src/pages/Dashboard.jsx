@@ -1,10 +1,11 @@
 import { DashLayout } from "../components/layouts/DashLayout";
+import { TopBar } from "../components/TopBar";
 
 export function Dashboard() {
   return (
     <>
       <DashLayout>
-        <h1 className="text-3xl font-semibold">Dashboard</h1>
+        <div className="p-6"></div>
       </DashLayout>
     </>
   );

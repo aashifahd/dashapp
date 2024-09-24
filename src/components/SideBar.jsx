@@ -68,7 +68,7 @@ export function SideBar() {
   ];
 
   return (
-    <div className="flex flex-col bg-gray-50 dark:bg-zinc-900 w-[321px] min-h-screen p-8 text-zinc-950 dark:text-gray-50">
+    <div className="flex flex-col bg-gray-100 dark:bg-zinc-900 w-[321px] min-h-screen p-8 text-zinc-950 dark:text-gray-50">
       <img src={logo} alt="Logo" style={{ height: 52, width: 164 }} />
 
       <div className="flex flex-col justify-between flex-1">
@@ -79,7 +79,7 @@ export function SideBar() {
                 <Link
                   key={navItem.title}
                   to={navItem.link}
-                  className="flex items-center  space-x-2 hover:bg-gray-100 hover:text-zinc-950 p-4 rounded-md"
+                  className="flex items-center  space-x-2 hover:bg-gray-100 hover:text-zinc-950 p-4 rounded-md text-md"
                 >
                   <navItem.icon className="w-6 h-6 mr-2" />
                   {navItem.title}
@@ -110,7 +110,7 @@ export function SideBar() {
           <div className="mt-4">
             <Link
               to={"/profile"}
-              className="flex items-center font-semibold space-x-2 hover:bg-gray-100 hover:text-zinc-950 p-4 rounded-md gap-4"
+              className="flex items-center  space-x-2 hover:bg-gray-100 hover:text-zinc-950 p-4 rounded-md gap-4"
             >
               <img
                 class="h-8 w-8 rounded-full ring-2 ring-white/50"
